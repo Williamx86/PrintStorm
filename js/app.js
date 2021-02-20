@@ -11,7 +11,7 @@ btn_cerrar.addEventListener('click', () => {
 });
 
 
-var imagenes = ["url('../src/img/hombre.png')", "url('../src/img/imprenta.jpg')", "url('../src/img/stickers.jpg')"];
+var imagenes = ["url('https://i.ibb.co/cXfRWMD/hombre.png')", "url('https://i.ibb.co/wRW5B9p/imprenta.jpg')", "url('https://i.ibb.co/BcKB0Nz/stickers.jpg')"];
 const slider = document.querySelector(".slider__fondo");
 var indice = 0;
 

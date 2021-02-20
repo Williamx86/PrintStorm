@@ -376,7 +376,17 @@ footer {
     filter: grayscale(50%);
 }
 
-.ver__catalogo{
+.presentacion__servicios {
+    padding-top: 5rem;
+    background-image: url('../src/img/carnet.png');
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+}
+
+.ver__catalogo {
     padding: 6rem 0;
 }
 
@@ -418,6 +428,16 @@ footer {
 .personalizado:focus {
     border: 2px solid var(--amarillo);
     box-shadow: none;
+}
+
+.servicios__final img {
+    display: block;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.servicios__final img:hover {
+    transform: scale(1.1);
 }
 
 @keyframes salir {
